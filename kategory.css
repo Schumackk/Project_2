@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+    *,
+    *:before,
+    *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    :focus,
+    :active {
+    outline: none;
+    }
+    a:focus,
+    a:active {
+    outline: none;
+    }
+    nav,
+    footer,
+    header,
+    aside {
+    display: block;
+    }
+    html,
+    body {
+    height: 100vh;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    input,
+    button,
+    textarea {
+    font-family: inherit;
+    }
+    input::-ms-clear {
+    display: none;
+    }
+    button {
+    cursor: pointer;
+    }
+    button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+    }
+    a,
+    a:visited {
+    text-decoration: none;
+    }
+    a:hover {
+    text-decoration: none;
+    }
+    ul li {
+    list-style: none;
+    }
+    img {
+    vertical-align: top;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+    font-size: inherit;
+    font-weight: 400;
+    }
+
+    @font-face {
+  font-family: 'Dela';
+  src: url("fonts/DelaGothicOne-Regular.ttf");
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url("fonts/Inter-Regular.otf");
+    }
+    @font-face {
+        font-family: 'Comfortaa';
+        src: url("fonts/Comfortaa.ttf");
+        }
+
+
+        .footer{
+            height: 100px;
+            background: #09595E;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .footer_part1, .footer_part2{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+        .footer_part1, .footer_part2{
+            gap: 13px;
+        }
+        .contacts{
+            font-family: 'Comfortaa';
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 17px;
+            text-align: left;
+            color: white;
+        }
+        .post a{
+            font-family: 'Comfortaa';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 10px;
+            margin-left: -23px;
+        }
+        .post p {
+            font-family: 'Comfortaa';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 10px;
+            color: white;
+            margin-left: -23px;
+        }
+        .contacts1, .contacts2{
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+        .gmail {
+            text-align: left;
+        }
+        .gmail img{
+            width: 50%;
+        }
+        .smile img{
+            width: 51%;
+        }
+
+
+
+
+.conteiner {
+    background-color: #D5DADD;
+}
+.conteiner3 button {
+    margin-bottom: 25px;
+    border: 3px solid white;
+    background-color: #D5DADD;
+    border-radius: 40px;
+    color: #09595E;
+    font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    padding: 15px 20px;
+}
+.conteiner3 button:hover {
+    background-color: #09595E;
+    color: white;
+}
+        .main {
+            display: flex;
+        
+        }
+        .main button {
+            border: 3px solid black;
+            background-color: #D5DADD;
+            border-radius: 28px;
+            padding: 11px 20px;
+            font-family: 'Inter';
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .button_main:hover{
+            background-color: #09595E;
+            border-color: white;
+            color: white;
+        }
+        .main_text1 p{
+            font-family: 'Dela';    
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 50px;
+            text-align: center;
+            }
+        .main_text2{    
+            font-family: 'Dela';
+            font-size: 75px;
+            font-weight: 400;
+            line-height: 90px;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #09595E;
+        }
+
+
+.conteiner2{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.image1, .image2{
+    width: 38%;
+}
+.image1 img, .image2 img{
+    width: 100%;
+}
+.image1:hover{
+        -webkit-transform: scale(1.12);
+        -ms-transform: scale(1.12);
+        transform: scale(1.12);
+        transition: 1s;
+        box-shadow: 0 0 50px #274240;
+        border-radius: 26px;
+}
+.image2:hover{
+    -webkit-transform: scale(1.12);
+    -ms-transform: scale(1.12);
+    transform: scale(1.12);
+    transition: 1s;
+    box-shadow: 0 0 50px #274240;
+    border-radius: 26px;
+}
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 27px;
+}
+.conteiner3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.conteiner3 button {
+    margin-bottom: 25px;
+    border: 3px solid white;
+    background-color: #D5DADD;
+    border-radius: 40px;
+    color: #09595E;
+    font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    padding: 15px 20px;
+}
+.conteiner3 button:hover {
+    background-color: #09595E;
+    color: white;
+}
+
+
+
